@@ -39,7 +39,7 @@ resource "aws_subnet" "ityoon_pric" {
 }
 
 #AZ private subnet db a
-resource "aws_subnet" "ityoon_pribda" {
+resource "aws_subnet" "ityoon_pridba" {
   vpc_id            = aws_vpc.ityoon_vpc.id
   cidr_block        = "10.0.4.0/24"
   availability_zone = "ap-northeast-2a"
@@ -49,7 +49,7 @@ resource "aws_subnet" "ityoon_pribda" {
 }
 
 #AZ private subnet db c
-resource "aws_subnet" "ityoon_pribdc" {
+resource "aws_subnet" "ityoon_pridbc" {
   vpc_id            = aws_vpc.ityoon_vpc.id
   cidr_block        = "10.0.5.0/24"
   availability_zone = "ap-northeast-2c"
