@@ -8,3 +8,7 @@ resource "aws_lb" "ityoon_alb" {
     Name = "ityoon_alb"
   }
 }
+
+output "dns_name" {
+  value = aws_lb.ityoon_alb.dns_name
+}
