@@ -65,6 +65,5 @@ resource "aws_security_group" "ityoon_sg" {
   tags = {
     Name = "ityoon_sg"
   }
-
 }
 
